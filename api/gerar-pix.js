@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 
   try {
     const response = await axios.post(
-      "https://api.nitropagamentos.com/api/public/v1/transactions?api_token=NXwr9Rgp2qPVbKCTfXbwXqwJWAZYy1j0cuSpCfKX4rZRIRArXDFeacerIcfF",
+      "https://api.nitropagamentos.com/api/public/v1/transactions?api_token=sUUcluHNoLW4996zpe3fLehjchHgp1nD5miC67Pr77xCec9P2OOXvnma3WxH",
       {
         amount: 6400,
         offer_hash: "7xka0xgzt8",

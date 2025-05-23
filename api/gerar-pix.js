@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default async function handler(req, res) {
   // Mantendo GET para facilitar testes sem body
-  if (req.method !== "GET") {
+  if (req.method !== "POST") {
     return res.status(405).json({ error: "Método não permitido" });
   }
 

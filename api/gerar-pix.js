@@ -10,7 +10,7 @@ export default async function handler(req, res) {
       "https://api.nitropagamentos.com/api/public/v1/transactions?api_token=sUUcluHNoLW4996zpe3fLehjchHgp1nD5miC67Pr77xCec9P2OOXvnma3WxH",
       {
         amount: 6400,
-        offer_hash: "7xka0xgzt8",
+        offer_hash: "er8wkwqumc",
         payment_method: "pix",
         customer: {
           name: "Confirma Exame",

@@ -182,7 +182,7 @@
         e.preventDefault();
 
         try {
-          const res = await fetch("/api/gerar-pix");
+          const res = await fetch('/.netlify/functions/gerar-pix');
           if (!res.ok) throw new Error("Erro ao gerar PIX");
           const data = await res.json();
 
